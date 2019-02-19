@@ -39,11 +39,11 @@ steps:
     includeRootFolder: false
     replaceExistingArchive: true
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    artifactName: 'Azure Pipelines/TFS'
-    publishLocation: FilePath
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    TargetPath: /
+# - task: PublishBuildArtifacts@1
+#   inputs:
+#     artifactName: 'Azure Pipelines/TFS'
+#     publishLocation: FilePath
+#     PathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+#     TargetPath: /
 
     
