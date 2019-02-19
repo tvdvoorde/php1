@@ -30,3 +30,20 @@ steps:
 #     rootFolderOrFile: '$(system.defaultWorkingDirectory)'
 #     includeRootFolder: false
 # - task: PublishBuildArtifacts@1
+
+- task: ArchiveFiles@2
+  inputs:
+    archiveType: zip
+    archiveFile: 1.zip
+    rootFolderOrFile: '$(system.defaultWorkingDirectory)'
+    includeRootFolder: false
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    artifactName: 'drop'
+    publishLocation: FilePath
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    TargetPath: /
+
+    
