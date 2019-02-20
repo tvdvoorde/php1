@@ -1,3 +1,3 @@
 pwd
 ls -l
-php -l ../../php/index.php
+php -l php/index.php
