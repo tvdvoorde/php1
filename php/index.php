@@ -1,2 +1,2 @@
 <?php
-echo "Hello DEVOPS!";
+echo "Hello SECDEVOPS!";
