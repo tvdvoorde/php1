@@ -1,2 +1,2 @@
 <?php
-ecxho "Hello SECDEVOPS!";
+echo "Hello SECDEVOPS!";
