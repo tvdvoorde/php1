@@ -1,1 +1,1 @@
-curl $1|grep SEFG
+curl $1|grep INFRA
