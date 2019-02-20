@@ -1,1 +1,1 @@
-curl http://www.nu.nl
+curl $1|grep Gibson
