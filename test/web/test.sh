@@ -1,4 +1,4 @@
-curl $1|grep DEVOPS
+curl $1|grep DEVXPS
 if [ $? -ne 0 ]
 then
         error=1
